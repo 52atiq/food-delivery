@@ -1,9 +1,10 @@
 import React from 'react';
+import { Header } from './components';
 
 const App = () => {
     return (
-        <div className='text-red-500'>
-            App
+        <div className='w-screen h-auto flex flex-col'>
+            <Header />
         </div>
     );
 };
